@@ -76,3 +76,6 @@ b) Если товара нет в корзине: не будет ли прев
 [Пример REST API запроса (GET).txt](https://github.com/user-attachments/files/24972510/REST.API.GET.txt)
 
 [Пример ответа API.json](https://github.com/user-attachments/files/24972547/API.json)
+
+
+<img width="1783" height="566" alt="Задание 3  Верхнеуровневая архитектура PUSH-уведомлений" src="https://github.com/user-attachments/assets/1533eced-3f9e-422c-bcbd-cb5545f70c3d" />
