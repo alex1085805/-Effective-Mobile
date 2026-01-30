@@ -1,0 +1,111 @@
+{
+  "status": "success",
+  "data": {
+    "stores": [
+      {
+        "id": "metro_001",
+        "name": "METRO",
+        "type": "supermarket",
+        "description": "Ближайшая доставка сегодня 21:00–23:00",
+        "delivery_available": true,
+        "delivery_time_slots": [
+          {
+            "date": "2024-01-30",
+            "start_time": "21:00",
+            "end_time": "23:00",
+            "available": true
+          }
+        ],
+        "fast_delivery": false,
+        "delivery_time_range": "21:00–23:00",
+        "external_url": "https://metro-cc.ru/delivery?partner=petrushka&ref=app_redirect",
+        "logo_url": "https://cdn.petrushka.zelenaya.ru/partners/metro/logo.png",
+        "sort_order": 1,
+        "metadata": {
+          "partner_code": "METRO",
+          "minimum_order": 1500,
+          "delivery_fee": 299
+        }
+      },
+      {
+        "id": "ashan_045",
+        "name": "Ашан",
+        "type": "hypermarket",
+        "description": "Ближайшая доставка сегодня 18:00–20:00",
+        "delivery_available": true,
+        "delivery_time_slots": [
+          {
+            "date": "2024-01-30",
+            "start_time": "18:00",
+            "end_time": "20:00",
+            "available": true
+          }
+        ],
+        "fast_delivery": false,
+        "delivery_time_range": "18:00–20:00",
+        "external_url": "https://auchan.ru/delivery?affiliate=petrushka&source=mobile_app",
+        "logo_url": "https://cdn.petrushka.zelenaya.ru/partners/ashan/logo.png",
+        "sort_order": 2,
+        "metadata": {
+          "partner_code": "ASHAN",
+          "minimum_order": 1000,
+          "delivery_fee": 199
+        }
+      },
+      {
+        "id": "vkusvill_128",
+        "name": "ВкусВилл",
+        "type": "grocery",
+        "description": "Быстрая доставка от 20 до 60 минут",
+        "delivery_available": true,
+        "delivery_time_slots": [],
+        "fast_delivery": true,
+        "delivery_time_minutes": {
+          "min": 20,
+          "max": 60
+        },
+        "external_url": "https://vkusvill.ru/express-delivery?partner=petrushka&utm_source=app",
+        "logo_url": "https://cdn.petrushka.zelenaya.ru/partners/vkusvill/logo.png",
+        "sort_order": 3,
+        "metadata": {
+          "partner_code": "VKUSVILL",
+          "minimum_order": 500,
+          "delivery_fee": 99
+        }
+      },
+      {
+        "id": "victoria_032",
+        "name": "ВИКТОРИЯ",
+        "type": "supermarket",
+        "description": "Ближайшая доставка сегодня 17:00–19:00",
+        "delivery_available": true,
+        "delivery_time_slots": [
+          {
+            "date": "2024-01-30",
+            "start_time": "17:00",
+            "end_time": "19:00",
+            "available": true
+          }
+        ],
+        "fast_delivery": false,
+        "delivery_time_range": "17:00–19:00",
+        "external_url": "https://victoria.ru/order?aff_id=petrushka_app&redirect=true",
+        "logo_url": "https://cdn.petrushka.zelenaya.ru/partners/victoria/logo.png",
+        "sort_order": 4,
+        "metadata": {
+          "partner_code": "VICTORIA",
+          "minimum_order": 1200,
+          "delivery_fee": 249
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "total_count": 4,
+    "server_time": "2024-01-30T12:34:01+03:00",
+    "user_location": {
+      "lat": 55.7558,
+      "lon": 37.6173
+    }
+  }
+}
