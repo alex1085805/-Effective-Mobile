@@ -1,4 +1,0 @@
-GET /api/v1/partner-stores?lat=55.7558&lon=37.6173&user_id=12345
-Host: api.petrushka.zelenaya.ru
-Authorization: Bearer <user_token>
-Accept: application/json
